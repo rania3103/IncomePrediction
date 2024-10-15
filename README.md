@@ -52,7 +52,25 @@ The dataset used can be found on Kaggle [here](https://www.kaggle.com/datasets/s
    - Analyzed feature importances to understand which factors (work experience, age) most influence household income prediction.
 
 ## Findings✨🕵
-- Feature importance analysis revealed that work experience and age were the most influential factors in predicting household income.
+
+1. **Work Experience and Age as Key Predictors**:
+   - Both **work experience** and **age** are highly influential factors in predicting household income. This suggests that individuals with more work experience and those who are older tend to have higher incomes.
+
+2. **Homeownership and Employment Status**:
+   - **Homeownership status** and **employment status** significantly contribute to income prediction, indicating that owning a home and being employed correlate strongly with higher household income.
+
+3. **Dependents and Household Size**:
+   - Features like the number of **dependents** and **household size** moderately impact income, suggesting that larger households or those with more dependents may face more financial constraints, affecting predicted income.
+
+4. **Geographical Location Matters**:
+   - The impact of **location** shows that living in different areas (e.g., urban vs. rural) can influence household income, reflecting variations in costs of living and economic opportunities.
+
+5. **Mode of Transportation as a Proxy for Economic Mobility**:
+   - **Primary mode of transportation** (e.g., owning a car vs. using public transportation) is an important feature, where owning a vehicle correlates with higher income, possibly due to greater economic mobility.
+
+6. **Model Performance**:
+   - The **stacked ensemble model** (combining optimized Random Forest, CatBoost, and LightGBM) yielded the best results, achieving the lowest **Mean Squared Error (MSE)** and **Root Mean Squared Error (RMSE)**, demonstrating a robust approach to predicting household income.
+
 
 ## 👩‍💻 Author
 
